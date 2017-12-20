@@ -1,0 +1,40 @@
+{
+  "name": "pm2-meteor-nvm",
+  "version": "0.5.7",
+  "bin": "lib/program.js",
+  "description": "Simplest way to deploy, scale and run Meteor Apps with PM2.",
+  "main": "lib/pm2-meteor.js",
+  "scripts": {
+    "prepublish": "make build",
+    "build": "make build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/andruschka/pm2-meteor.git"
+  },
+  "keywords": [
+    "pm2",
+    "meteor",
+    "config",
+    "deploy",
+    "deployment",
+    "meteorite",
+    "git deployment",
+    "nodejs",
+    "nvm"
+  ],
+  "author": "andruschka <fritz.andrej@me.com> (http://github.com/andruschka)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andruschka/pm2-meteor/issues"
+  },
+  "homepage": "https://github.com/andruschka/pm2-meteor",
+  "dependencies": {
+    "abs": "^1.0.0",
+    "async": "^1.4.2",
+    "cli": "^0.11.0",
+    "commander": "^2.9.0",
+    "inquirer": "^3.0.6",
+    "nodemiral": "^1.1.1"
+  }
+}
